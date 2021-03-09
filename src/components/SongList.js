@@ -55,7 +55,8 @@ const mapStateToProps = (state) => {
 // }
 // So connect() takes in as argument mapStateToProps and
 // returns a second function that takes SongList component
-// as argument.
+// as argument. mapStateToProps adds redux store state to
+// our component's props so component can access state.
 // Call connect() and pass in our component (SongList) as
 // second function call.
 // Second argument in connect() is an object that takes in
